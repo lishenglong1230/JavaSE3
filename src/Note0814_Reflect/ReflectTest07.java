@@ -26,6 +26,16 @@ public class ReflectTest07 {
 
         //获取no属性(根据属性的名称来获取Field)
         Field nofield=studentClass.getDeclaredField("no");
+        Field[] nofield1=studentClass.getDeclaredFields();
+        for (Field nofied:nofield1){
+            System.out.println(nofied.getName());
+        }
+        System.out.println("_________________");
+        Field[] nofield2=studentClass.getFields();
+        for (Field nofiel:nofield2){
+            System.out.println(nofiel.getName());
+        }
+        System.out.println(nofield2.length);
 
         //给obj对象(Student对象)的no属性赋值
         /*

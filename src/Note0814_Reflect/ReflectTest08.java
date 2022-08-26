@@ -11,7 +11,7 @@ public class ReflectTest08 {
     public static void main(String[] args) throws Exception{
         //获取类
         Class userServiceClass = Class.forName("Note0814_Reflect.UserService");
-        //获取所有逇Method(包括私有的)
+        //获取所有Method(包括私有的)
         Method[] methods = userServiceClass.getDeclaredMethods();
         System.out.println(methods.length);//2
 
