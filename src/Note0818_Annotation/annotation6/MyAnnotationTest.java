@@ -1,6 +1,5 @@
 package Note0818_Annotation.annotation6;
 
-
 import java.lang.reflect.Method;
 
 public class MyAnnotationTest {
@@ -21,6 +20,5 @@ public class MyAnnotationTest {
             System.out.println(myAnnotation.username());
             System.out.println(myAnnotation.password());
         }
-
     }
 }
