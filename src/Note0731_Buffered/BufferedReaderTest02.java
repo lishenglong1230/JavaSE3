@@ -14,7 +14,7 @@ public class BufferedReaderTest02 {
         //in是节点流。reader是包装流。
         InputStreamReader reader = new InputStreamReader(in);
 
-        //这个构造方法只能传一个字符串。不能传字节流。
+        //这个构造方法只能传一个字符流。不能传字节流。
         //reader是节点流。br是包装流。
         BufferedReader br = new BufferedReader(reader);*/
 
